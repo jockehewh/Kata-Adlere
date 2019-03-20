@@ -1,8 +1,6 @@
-console.log('loaded')
 fetch('/getfruits').then(res=>{
   return res.json()
 }).then(data =>{
-  console.log(data)
   data.forEach(fruit=>{
     displayFruit(fruit)
   })
@@ -52,12 +50,10 @@ const ajouteAuPanier = (fruitBox)=>{
   let fruitQuantity = fruitBox.querySelector('input').value
   
   if(fruitBox.dataset.promo !== undefined){
-    console.log(fruitBox.dataset.promo)
     let promoRatio = fruitBox.dataset.promo.split(',')
     let ratio, preRatio
     if(fruitQuantity%promoRatio[0] === 0){
       ratio = fruitQuantity/promoRatio[0]
-      console.log(ratio)
     }else{
       preRatio = fruitQuantity%promoRatio[0]
       ratio = (fruitQuantity - preRatio)/promoRatio[0]
