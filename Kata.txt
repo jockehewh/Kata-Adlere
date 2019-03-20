@@ -1,0 +1,18 @@
+﻿Alors comme ça vous voulez faire du Web ? Ça tombe bien, nous avons besoin de vous !
+
+Notre plus fidèle client, www.jachetemesfruitssurinternetetcameplait.fr, pionnier de la vente en ligne à une époque où Lycos n'aboyait qu'à peine, nous a sollicité pour la refonte complète de son site internet (vu l'époque, on part de loin, ne nous le cachons pas).
+Bien sûr, avant de se lancer dans un tel projet, le client souhaiterait que nous réalisions un PoC rapide afin d'appréhender les nouvelles technologies du Web et d'estimer le travail nécessaire.
+Votre mission, si toutefois vous l'acceptez, sera de réaliser le prototype de ce nouveau site web à partir des technologies qu'il vous siéra. Le but est bien de convaincre le client de notre maîtrise de ces technologies et de notre capacité à identifier et réaliser son besoin.
+
+Il s'agit donc d'un site de vente en ligne (de fruits, genre des pommes, des poires et des scoubidous).
+L'utilisateur doit être capable de sélectionner les produits produits qu'il veut avec la quantité souhaitée ; les produits sélectionnés constituent son « panier ». Chaque produit ayant un prix, le site doit être capable d'afficher le prix total du panier. 
+Les processus de paiement en ligne (3 D-Secure/etc.) étant assez complexes, il n'est pas nécessaire d'aborder leur mise en place pour le moment.
+En plus de cela, le client organise de temps en temps des promotions sur ses produits, par exemple « Deux pour le prix d'un » ou « 2 barquettes achetées, 1 barquette offerte ». Il faudra donc prendre en compte ces promotions pour l'utilisateur, notamment dans le calcul du prix du panier.
+
+Précisons qu'il est question avant tout d'un PoC technique et non graphique ; les caprices de design du client viendrons dans un deuxième temps. Par ailleurs, nous nous concentrons plus dans ce prototype sur l'interface utilisateur que sur l'interface « admin » de gestions des produits/promotions.
+Enfin, il s'agit d'un PoC, pas d'une livraison d'un produit fini clé en main ; ce qui compte est d'assurer notre crédibilité auprès du client.
+
+Nous avons confiance en vous.
+--------------------
+Ce message ne s'autodétruira pas dans cinq secondes, parce que nous ne sommes pas dans Mission Impossible et que cette mission ne l'est pas (mais n'oubliez quand même pas de régulièrement trier et supprimer vos mails #UnPetitGestePourLaPlanète)
+--------------------

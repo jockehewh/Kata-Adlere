@@ -1,0 +1,18 @@
+{
+  "name": "jachetemesfruitssurinternetetcameplait",
+  "version": "1.0.0",
+  "description": "une marché de fruit online",
+  "main": "fruitserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fruitserver.js"
+  },
+  "keywords": [
+    "fruits"
+  ],
+  "author": "Xavier Bélénus",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}

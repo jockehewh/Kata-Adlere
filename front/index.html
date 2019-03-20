@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jachetemesfruitssurinternetetcameplait</title>
+  <style>
+    *{margin:0; padding:0; user-select: none;}
+    .market-place{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      max-width: 80%;
+    }
+    .fruit{
+      border: solid 1px grey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .fruit img{
+      height:55px;
+      width:100px;
+    }
+    .fruit button, .fruit input{
+      width:50%;
+      text-align: center;
+    }
+    .panier{
+      position: absolute;
+      right:0;
+      top:0;
+      width:20%;
+      text-align: center;
+    }
+    .dans-le-panier{
+      min-height: 300px;
+    }
+    .total{}
+    li{
+      cursor:pointer;
+      list-style:none;
+    }
+  </style>
+</head>
+<body>
+  <div class="market-place">
+
+  </div>
+  <div class="panier">
+    <ul class="dans-le-panier"></ul>
+    <p class="total">Total: <span>0 €</span></p>
+  </div>
+  <script src="fruit-market.js"></script>
+</body>
+</html>
